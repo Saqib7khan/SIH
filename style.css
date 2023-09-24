@@ -1,0 +1,38 @@
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+}
+a:link{
+    color: #2E4374;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+.logo{
+    color: #2E4374;
+}
+header nav ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #BC7F4C;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+header nav ul li:hover::after{
+    width: 100%;
+}
+ul li a{
+    color: #435334;
+    font-size: large;
+}
+footer{
+        background: #7C81AD;
+        padding: 40px;
+}
